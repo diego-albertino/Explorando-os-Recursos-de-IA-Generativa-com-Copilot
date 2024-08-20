@@ -1,7 +1,14 @@
-A imagem mostra um diagrama de uma rede neural simples. Aqui está uma explicação detalhada:
+A imagem mostra um diagrama de circuito quântico, que é uma representação esquemática de uma sequência de portas quânticas atuando em qubits. Aqui está uma explicação detalhada de como esse circuito funciona:
 
-- **Camada de entrada**: Esta é a primeira camada, composta por dois círculos verdes. Eles representam os neurônios que recebem os dados de entrada.
-- **Camada oculta**: Esta é a camada intermediária, composta por quatro círculos pretos. Os neurônios nesta camada processam as entradas recebidas da camada de entrada.
-- **Camada de saída**: Esta é a última camada, composta por um círculo vermelho. Este neurônio fornece a saída final da rede neural.
+1. **Qubits**: Existem três qubits no circuito, rotulados como q0, q1 e q2.
+2. **Portas Hadamard (H)**: As portas Hadamard são aplicadas aos qubits q0 e q1. Essas portas colocam os qubits em um estado de superposição, permitindo que eles existam em múltiplos estados simultaneamente.
+3. **Portas CNOT (Controlled-NOT)**: Existem três portas CNOT no circuito. Essas portas criam emaranhamento entre os qubits, o que é essencial para a computação quântica. A porta CNOT tem um qubit de controle e um qubit alvo. Se o qubit de controle estiver em estado 1, a porta CNOT inverte o estado do qubit alvo.
+4. **Portas Pauli-X (X) e Pauli-Z (Z)**: Essas portas são aplicadas ao qubit q2. A porta Pauli-X é equivalente a uma porta NOT clássica, invertendo o estado do qubit. A porta Pauli-Z aplica uma rotação ao estado do qubit.
 
-As setas indicam a direção do fluxo de informação, mostrando como os dados são transmitidos de uma camada para outra. Este diagrama ilustra como uma rede neural básica funciona, com neurônios interconectados processando entradas para gerar uma saída.
+### Passos do Circuito:
+1. **Início**: O circuito começa com os qubits q0, q1 e q2 em seus estados iniciais.
+2. **Superposição**: As portas Hadamard são aplicadas a q0 e q1, colocando-os em superposição.
+3. **Emaranhamento**: As portas CNOT são usadas para criar emaranhamento entre os qubits. A primeira CNOT tem q1 como controle e q2 como alvo. A segunda CNOT tem q0 como controle e q1 como alvo. A terceira CNOT tem q0 como controle e q2 como alvo.
+4. **Transformações Finais**: As portas Pauli-X e Pauli-Z são aplicadas a q2, realizando transformações específicas no estado do qubit.
+
+Este circuito quântico demonstra como a superposição e o emaranhamento são usados para processar informações em um computador quântico, aproveitando os princípios fundamentais da mecânica quântica.
