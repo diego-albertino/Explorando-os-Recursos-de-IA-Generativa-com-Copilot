@@ -1,0 +1,11 @@
+A imagem compara dois tipos de "bolinhas" que os computadores usam para pensar: o **bit clássico** e o **qubit**.
+
+1. **Bit Clássico**:
+   - Representado por um ponto vermelho.
+   - Pode estar em um de dois estados: **0** ou **1**. Pense nisso como uma luz que pode estar **ligada** ou **desligada**.
+
+2. **Qubit**:
+   - Representado por uma esfera.
+   - Pode estar em vários estados ao mesmo tempo, graças a algo chamado **superposição**. Isso significa que, além de estar em **0** ou **1**, ele pode estar em uma combinação dos dois, como se fosse uma luz que está meio **ligada** e meio **desligada** ao mesmo tempo.
+
+A esfera do qubit mostra que ele pode estar em qualquer ponto da superfície, representando essa capacidade de estar em múltiplos estados simultaneamente. Isso é o que torna os qubits tão poderosos para a computação quântica.
