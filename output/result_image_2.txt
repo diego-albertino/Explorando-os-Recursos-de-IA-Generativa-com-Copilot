@@ -1,0 +1,7 @@
+A imagem mostra um diagrama de uma rede neural simples. Aqui está uma explicação detalhada:
+
+- **Camada de entrada**: Esta é a primeira camada, composta por dois círculos verdes. Eles representam os neurônios que recebem os dados de entrada.
+- **Camada oculta**: Esta é a camada intermediária, composta por quatro círculos pretos. Os neurônios nesta camada processam as entradas recebidas da camada de entrada.
+- **Camada de saída**: Esta é a última camada, composta por um círculo vermelho. Este neurônio fornece a saída final da rede neural.
+
+As setas indicam a direção do fluxo de informação, mostrando como os dados são transmitidos de uma camada para outra. Este diagrama ilustra como uma rede neural básica funciona, com neurônios interconectados processando entradas para gerar uma saída.
